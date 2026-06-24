@@ -1,5 +1,5 @@
 # CC63D — Lab 4: arma tu pipeline de CI en GitHub Actions
-
+Prueba ACARO
 Cuarto laboratorio del curso **CC63D — Arquitecturas de Servicios, DevOps, SRE y Cloud** (FCFM, Universidad de Chile, 2026).
 
 Este repo trae el **monolito** instrumentado del [Lab 3](https://github.com/lnds/cc63d-lab-3) (Flask + SQLite) con una **suite de pruebas completa** (12 tests). El código y los tests **ya están hechos**.
