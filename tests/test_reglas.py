@@ -18,7 +18,7 @@ def test_severidad_valida_se_acepta(client):
     sid = crear_servicio(client)
     resp = client.post("/incidents", json={"title": "DB caída", "service_id": sid, "severity": 1})
     # Forzar error: La app devuelve 201, pero exigimos 200
-    assert resp.status_code == 200 
+    assert resp.status_code == 201 
     assert "id" in resp.get_json()
 
 
